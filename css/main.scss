@@ -1,0 +1,66 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@import "font";
+
+$header-description-color: rgb(105, 105, 105);
+$header-link-color: rgb(105, 105, 105);
+$header-bg-color: #ddd;
+$header-site-title-color: #111;
+
+body {
+  background-color: $header-bg-color;
+}
+
+.site-header {
+
+  .site-title h1 {
+    font-size: 1.5em;
+    text-align: center;
+
+    a {
+      color: $header-site-title-color;
+      text-decoration: none;
+
+      &:visited {
+        color: $header-site-title-color;
+      }
+
+      &:hover {
+        color: lighten($header-site-title-color, 20%);
+      }
+
+    }
+    
+  }
+
+  .site-description {
+    p {
+      color: $header-description-color;
+      font-size: 1em;
+      padding: 5px 20px;
+    }
+  }
+  
+  nav {
+    ul {
+
+      li {
+        display: inline-block;
+        margin-right: 5px;
+
+        a {
+          color: $header-link-color;
+          text-decoration: none;
+
+          &:hover {
+            color: lighten($header-link-color, 20%);
+          }
+        }
+      }
+
+    }
+  }
+}
