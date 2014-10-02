@@ -52,11 +52,13 @@ body {
         margin-right: 5px;
 
         a {
+          font-size: 0.85em;
           color: $header-link-color;
-          text-decoration: none;
+          text-decoration: underline;
 
           &:hover {
             color: lighten($header-link-color, 20%);
+            text-decoration: none;
           }
         }
       }
