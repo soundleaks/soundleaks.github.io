@@ -1,5 +1,4 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
 
@@ -29,7 +28,7 @@ body {
       }
 
       &:hover {
-        color: lighten($header-site-title-color, 20%);
+        color: lighten($header-site-title-color, 30%);
       }
 
     }
