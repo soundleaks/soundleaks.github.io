@@ -33,6 +33,7 @@ section#main {
   border-bottom: 1px solid #eee;
 
   .site-title h1 {
+    font-family: Helvetica, Tahoma, Arial, STXihei;
     font-size: 1.5em;
     text-align: center;
 
@@ -72,12 +73,12 @@ section#main {
           font-size: 0.9em;
           font-weight: 700;
           color: $header-link-color;
-          text-decoration: underline;
+          text-decoration: none;
 
           &:hover {
             @include transition (all 1s ease);
             color: lighten($header-link-color, 30%);
-            text-decoration: none;
+            text-decoration: underline;
           }
         }
       }
@@ -96,10 +97,12 @@ footer {
 .post {
   margin: 1em 4em;
 
-  h2 {
-    font-size: 1.2em;
+  .post-header {
+    .post-title {
+      color: #999;
+      font-size: 1.2em;
+    }
   }
-
 }
 
 
