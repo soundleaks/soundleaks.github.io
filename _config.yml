@@ -1,11 +1,12 @@
 title: Soundleaks | 声漏
-email: iseansay@gmail.com
+email: soundleakschina@gmail.com
 description: 声漏是每月一次发生在北京的整日活动，音乐家、工程师、艺术家、科学家、作曲家和硬件爱好者聚在一起，围绕相关主题探索声音的新可能。
 baseurl: ""
 url: "http://www.soundleaks.org"
 twitter_username: soundleaks
-github_username:  soundleaks
+github_username: soundleaks
 markdown: kramdown
+mailling_list_signup_link: http://eepurl.com/4XlPP
 
 collections:
   events:
