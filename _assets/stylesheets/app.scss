@@ -1,19 +1,19 @@
 @charset "utf-8";
 
-@import "bourbon";
 
+@import "bourbon";
 @import "mods/font";
 
 $body-bg-color: white;
 
 $header-description-color: rgb(105, 105, 105);
 $header-link-color: rgb(80, 80, 80);
-$header-bg-color: rgb(240, 240, 240);
+$header-bg-color: rgb(230, 230, 230);
 $header-site-title-color: #111;
 
-
 $footer-bg-color: rgb(160, 160, 160);
-$footer-color: #ddd;
+$footer-color: rgb(240, 240, 240);
+
 
 body {
   background-color: $body-bg-color;
@@ -22,7 +22,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-
+//
 section#main {
   flex: 1;
 }
@@ -30,7 +30,7 @@ section#main {
 .site-header {
   padding-top: 0.2em;
   background-color: $header-bg-color;
-  border-bottom: 3px solid #eee;
+  border-bottom: 1px solid #eee;
 
   .site-title h1 {
     font-size: 1.5em;
@@ -90,7 +90,7 @@ footer {
   border-top: 1px solid #aaa;
   background-color: $footer-bg-color;
   color: $footer-color;
-  padding: 1em 5em;
+  padding: 1em 4em;
 }
 
 .post {
@@ -106,5 +106,9 @@ footer {
 @media (max-width: 48em) {
   .post {
     margin: 1em 1em;
+  }
+
+  footer {
+    padding: 1em 1em;
   }
 }
