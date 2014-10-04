@@ -5,6 +5,10 @@ permalink: /contact/
 ---
 
 
-weibo:
-email:
 
+* Email:
+* douban:
+* weibo:  
+* wechat:
+* twitter: [@soundleaks](https://twitter.com/soundleaks)
+* facebook: 

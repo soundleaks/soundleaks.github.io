@@ -1,16 +1,28 @@
----
----
 @charset "utf-8";
 
-@import "font";
+@import "bourbon";
+
+@import "mods/font";
 
 $header-description-color: rgb(105, 105, 105);
-$header-link-color: rgb(105, 105, 105);
+$header-link-color: rgb(80, 80, 80);
 $header-bg-color: #ddd;
 $header-site-title-color: #111;
 
+
+$footer-bg-color: #666;
+$footer-color: #ccc;
+
 body {
   background-color: $header-bg-color;
+  //  for sticky footer
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+section#main {
+  flex: 1;
 }
 
 .site-header {
@@ -48,15 +60,17 @@ body {
 
       li {
         display: inline-block;
-        margin-right: 5px;
+        margin-right: 4px;
 
         a {
-          font-size: 0.85em;
+          font-size: 0.9em;
+          font-weight: 700;
           color: $header-link-color;
           text-decoration: underline;
 
           &:hover {
-            color: lighten($header-link-color, 20%);
+            @include transition (all 1s ease);
+            color: lighten($header-link-color, 30%);
             text-decoration: none;
           }
         }
@@ -67,5 +81,24 @@ body {
 }
 
 footer {
-  padding: 10px 20px;
+  background-color: $footer-bg-color;
+  color: $footer-color;
+  padding: 1em 5em;
+}
+
+.post {
+  margin: 1em 4em;
+  border-top: 1px dashed #999;
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+}
+
+
+@media (max-width: 48em) {
+  .post {
+    margin: 1em 1em;
+  }
 }
