@@ -8,12 +8,12 @@ $body-bg-color: white;
 
 $header-description-color: rgb(105, 105, 105);
 $header-link-color: rgb(80, 80, 80);
-$header-bg-color: #ddd;
+$header-bg-color: rgb(240, 240, 240);
 $header-site-title-color: #111;
 
 
-$footer-bg-color: rgb(245, 245, 245);
-$footer-color: #999;
+$footer-bg-color: rgb(160, 160, 160);
+$footer-color: #ddd;
 
 body {
   background-color: $body-bg-color;
@@ -28,8 +28,9 @@ section#main {
 }
 
 .site-header {
+  padding-top: 0.2em;
   background-color: $header-bg-color;
-  border-bottom: 2px solid #eee;
+  border-bottom: 3px solid #eee;
 
   .site-title h1 {
     font-size: 1.5em;
@@ -86,8 +87,7 @@ section#main {
 }
 
 footer {
-  font-size: 87.5%;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #aaa;
   background-color: $footer-bg-color;
   color: $footer-color;
   padding: 1em 5em;
