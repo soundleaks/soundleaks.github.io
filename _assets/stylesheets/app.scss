@@ -4,17 +4,19 @@
 
 @import "mods/font";
 
+$body-bg-color: white;
+
 $header-description-color: rgb(105, 105, 105);
 $header-link-color: rgb(80, 80, 80);
 $header-bg-color: #ddd;
 $header-site-title-color: #111;
 
 
-$footer-bg-color: #666;
-$footer-color: #ccc;
+$footer-bg-color: rgb(245, 245, 245);
+$footer-color: #999;
 
 body {
-  background-color: $header-bg-color;
+  background-color: $body-bg-color;
   //  for sticky footer
   display: flex;
   min-height: 100vh;
@@ -26,6 +28,8 @@ section#main {
 }
 
 .site-header {
+  background-color: $header-bg-color;
+  border-bottom: 2px solid #eee;
 
   .site-title h1 {
     font-size: 1.5em;
@@ -57,6 +61,7 @@ section#main {
   
   nav {
     ul {
+      padding: 0 1em;
 
       li {
         display: inline-block;
@@ -81,6 +86,8 @@ section#main {
 }
 
 footer {
+  font-size: 87.5%;
+  border-top: 1px solid #eee;
   background-color: $footer-bg-color;
   color: $footer-color;
   padding: 1em 5em;
@@ -88,7 +95,6 @@ footer {
 
 .post {
   margin: 1em 4em;
-  border-top: 1px dashed #999;
 
   h2 {
     font-size: 1.2em;
