@@ -6,9 +6,8 @@ permalink: /contact/
 
 
 
-* Email:
+* email:<soundleakschina@gmail.com>
 * douban:
 * weibo:  
 * wechat:
 * twitter: [@soundleaks](https://twitter.com/soundleaks)
-* facebook: 
