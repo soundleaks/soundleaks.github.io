@@ -92,6 +92,24 @@ footer {
   background-color: $footer-bg-color;
   color: $footer-color;
   padding: 1em 4em;
+
+  p {
+    font-size: 1.2em;
+  }
+
+  .icon-list {
+    margin: 1em 0;
+    padding: 0;
+    text-align: right;
+    list-style-type: none;
+    font-size: 1.2em;
+
+    li {
+      display: inline-block;
+      padding: 0 0.1em;
+    }
+  }
+
 }
 
 .post {
@@ -113,7 +131,16 @@ footer {
 
   footer {
     padding: 1em 1em;
+
+    p {
+      text-align: center;
+    }
+
+    .icon-list {
+      text-align:center;
+    }
   }
+  
 }
 
 @import "home"

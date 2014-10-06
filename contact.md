@@ -6,6 +6,6 @@ permalink: /contact/
 
 
 
-* email: <{{site.email}}>
-* weibo:  [@soundleaks]({{site.weibo_url}})
-* twitter: [@soundleaks](https://twitter.com/soundleaks)
+* email: <{{ site.email }}>
+* weibo:  [@soundleaks]({{ site.weibo_url }})
+* twitter: [@soundleaks]({{ site.twitter_url }})

@@ -8,6 +8,7 @@ github_username: soundleaks
 markdown: kramdown
 mailling_list_signup_link: http://eepurl.com/4XlPP
 weibo_url: http://weibo.com/soundleaks
+twitter_url: https://twitter.com/soundleaks
 
 collections:
   events:
