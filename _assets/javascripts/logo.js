@@ -2,6 +2,7 @@ var logo = function( sketch ) {
   var soundText = "SOUND".split('');
   var leaksText = "LEAKS".split('').join("   ");
 
+  var thelaChange = 0.04;
   var i;
   var theta = 0.0;      // Start angle at 0
 
@@ -10,15 +11,19 @@ var logo = function( sketch ) {
     sketch.createCanvas(300, 200);
   };
 
+  sketch.setThelaChange = function(val) {
+    thelaChange = sketch.map(val, 0, 1, 0.01, 0.2);
+  };
+
   sketch.draw = function() {
     sketch.strokeWeight(2);
 
-    sketch.textFont("Helvetica");
-    sketch.textSize(14);
+    sketch.textFont("Arial");
+    sketch.textSize(13);
     sketch.textStyle(sketch.BOLD);
 
     sketch.background(230, 230, 230);
-    theta += 0.04;
+    theta += thelaChange;
 
     var width = sketch.width;
     var height = sketch.height;
@@ -42,6 +47,7 @@ var logo = function( sketch ) {
       // sound text
       sketch.push();
         sketch.strokeWeight(0.5);
+        sketch.fill(0);
         soundText.map(function(char, index){
           var x = -15;
           var y = -0.22*width + 15 *index;
@@ -51,9 +57,12 @@ var logo = function( sketch ) {
 
       //  leaks text
       sketch.push();
-        sketch.strokeWeight(1);
-        sketch.rotate(angle2);
-        sketch.translate(0, 15);
+        sketch.strokeWeight(0.5);
+        sketch.fill(0);
+
+        sketch.rotate(angle2*7/8);
+        sketch.translate(2, 14);
+
         sketch.textWidth(40);
         sketch.text(leaksText, 0, 0)
       sketch.pop();
@@ -89,3 +98,12 @@ var logo = function( sketch ) {
 };
 
 var myp5 = new p5(logo, 'logo');
+
+$(document).ready(function(){
+  $(document).mousemove(function(e){
+    var $this = $(this);
+    var x = e.pageX / $(this).width();
+    var y = e.pageY / $(this).height();
+    myp5.setThelaChange(x);
+  });
+});
