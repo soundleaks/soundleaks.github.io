@@ -16,7 +16,6 @@ collections:
     permalink: /event/:path/
 
 assets:
-  js_compressor:  uglifier
   sources:
     - _assets/images
     - _assets/javascripts
