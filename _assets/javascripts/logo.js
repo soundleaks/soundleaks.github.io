@@ -2,7 +2,9 @@ var logo = function( sketch ) {
   var soundText = "SOUND".split('');
   var leaksText = "LEAKS".split('').join("   ");
 
+
   var thelaChange = 0.04;
+  var waveOffset = 0.0;
   var i;
   var theta = 0.0;      // Start angle at 0
 
@@ -13,6 +15,10 @@ var logo = function( sketch ) {
 
   sketch.setThelaChange = function(val) {
     thelaChange = sketch.map(val, 0, 1, 0.01, 0.2);
+  };
+
+  sketch.setWaveOffset = function(val) {
+    waveOffset = sketch.map(val, 0, 1, -10, 10);
   };
 
   sketch.draw = function() {
@@ -70,6 +76,7 @@ var logo = function( sketch ) {
       sketch.push();
         sketch.translate(0.12*width, -0.18*height);
         sketch.rotate(sketch.radians(10));
+        sketch.translate(0, waveOffset);
 
         var x = theta;
         for (i = 0; i <= 90; i=i+0.3) {
@@ -105,5 +112,6 @@ $(document).ready(function(){
     var x = e.pageX / $(this).width();
     var y = e.pageY / $(this).height();
     myp5.setThelaChange(x);
+    myp5.setWaveOffset(y);
   });
 });
