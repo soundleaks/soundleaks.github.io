@@ -10,7 +10,7 @@ var logo = function( sketch ) {
 
 
   sketch.setup = function() {
-    sketch.createCanvas(300, 200);
+    sketch.createCanvas(300, 160);
   };
 
   sketch.setThelaChange = function(val) {
