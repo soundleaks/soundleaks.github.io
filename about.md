@@ -40,6 +40,10 @@ permalink: /about/
 
 订阅我们的 [新闻邮件]({{ site.mailling_list_signup_link }}) 或者关注微博[@soundleaks]({{ site.weibo_url }})来获得最新活动的通知罢！
 
+## 赞助/Sponsorship
+
+我们还在寻找场地和食物的赞助，你可以通过电子邮件<a href="mailto:{{site.email}}">{{site.email}}</a> 联系我们。
+
 
 ## 联络/Contact
 
