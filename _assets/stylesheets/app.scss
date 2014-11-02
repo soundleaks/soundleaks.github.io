@@ -19,6 +19,7 @@ $link-bg-color: rgb(40, 40, 40);
 
 #logo {
   width: 300px;
+  margin: 0 auto;
 }
 
 body {
@@ -154,10 +155,14 @@ footer {
 }
 
 .site-header-right {
-  margin-left: 90px;
+  margin-left: 50px;
 }
 
 @media (max-width: 48em) {
+  .site-header-right {
+    margin-left: 0;
+  }
+
   .post {
     margin: 1em 1em;
   }

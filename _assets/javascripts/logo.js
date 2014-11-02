@@ -10,7 +10,7 @@ var logo = function( sketch ) {
 
 
   sketch.setup = function() {
-    sketch.createCanvas(300, 160);
+    sketch.createCanvas(260, 140);
   };
 
   sketch.setThelaChange = function(val) {
@@ -25,7 +25,7 @@ var logo = function( sketch ) {
     sketch.strokeWeight(2);
 
     sketch.textFont("Arial");
-    sketch.textSize(13);
+    sketch.textSize(12);
     sketch.textStyle(sketch.BOLD);
 
     sketch.background(230, 230, 230);
@@ -56,20 +56,21 @@ var logo = function( sketch ) {
         sketch.fill(0);
         soundText.map(function(char, index){
           var x = -15;
-          var y = -0.22*width + 15 *index;
+          var y = -0.195*width + 12 *index;
           sketch.text(char, x, y);
         });
       sketch.pop();
 
       //  leaks text
       sketch.push();
+        sketch.textSize(11);
         sketch.strokeWeight(0.5);
         sketch.fill(0);
 
         sketch.rotate(angle2*7/8);
         sketch.translate(2, 14);
 
-        sketch.textWidth(40);
+        sketch.textWidth(15);
         sketch.text(leaksText, 0, 0)
       sketch.pop();
 
