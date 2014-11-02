@@ -38,7 +38,7 @@ permalink: /about/
 
 我们每一到两个月举办一次，活动通常会在周六或周日的正午开始，直到晚上。地点也不固定，我们喜欢多样的环境和人 :)
 
-订阅我们的 [新闻邮件]({{ site.mailling_list_signup_link }}) 或者关注微博[@soundleaks]({{ site.weibo_url }})来获得最新活动的通知罢！
+订阅我们的 [新闻邮件]({{ site.mailling_list_signup_link }}) 或者关注微博 [@soundleaks]({{ site.weibo_url }}) 来获得最新活动的通知罢！
 
 ## 赞助/Sponsorship
 
