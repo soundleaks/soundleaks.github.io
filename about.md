@@ -12,16 +12,37 @@ permalink: /about/
 声漏是一场涉及声音与音乐的聚会我们希望更多对声音或音乐相关的文化理论、技术探讨、科学研究以及创作表演感兴趣的朋友加入到我们当中。
 声漏将定期在北京举办围绕声音或音乐相关项目的讲座与理论推广并且有相关类型的创作等活动体验。这个聚会是一个非正式民间交流聚会并不需要参与者有相关的专业背景。
 
-Soundleaks is a monthly party in Beijing. Trying to engage people who are interested in sound and music, the party will relate to the aspect of cultural studies, technical investigations, science researches, makings and performances. It includes symposiums, workshops and night performances around sound and music and the invited guest lecturers are coming from interdisplinary areas such as musicians, engineers, artists, composers, programers and so on. Our party is open to everyone, even some of you might be without relevant background. It’s informal and friendly. Welcome to join and obeserve. We are waiting for the exciting sonic possibilities.
+活动的环节：
+
+1. 嘉宾讲者的演讲与讨论（2到3位）。
+
+2. 个人或团体的项目Hack，无论是你现场萌生的想法或者捡起一个半道被你遗弃的项目。
+
+3. 在晚上8点，展示/表演的时间。
 
 
-## 日程/Schedule
+## 我可以做些什么？
 
-12am - 2pm 嘉宾讲座/GUEST LECTURE (2-3人)
-
-2pm - 8pm 创作时间/HACKING
-
-8pm -     演出/PERFORMANCE
+任何与声音/音乐有关的东西，展开想象力吧：
 
 
-## FAQ
+* 一个使用树莓派蓝莓派的多轨声音表演
+
+* 一个基于 Web浏览器 的声音可视化工具
+
+* 一段使用劣质摄像头的Audio Visual表演
+
+
+
+## 时间以及地点/Time, Venue
+
+我们每一到两个月举办一次，活动通常会在周六或周日的正午开始，直到晚上。地点也不固定，我们喜欢多样的环境和人 :)
+
+订阅我们的[新闻邮件]({{ site.mailling_list_signup_link }})或者关注[@soundleaks]({{ site.weibo_url }})来获得最新活动的通知罢！
+
+
+## 联络/Contact
+
+更多相关的信息，你还可以通过电子邮件联系我们:
+
+<{{ site.email }}>
