@@ -28,7 +28,7 @@ var logo = function( sketch ) {
     sketch.textSize(12);
     sketch.textStyle(sketch.BOLD);
 
-    sketch.background(230, 230, 230);
+    // sketch.background(255, 230, 230);
     theta += thelaChange;
 
     var width = sketch.width;

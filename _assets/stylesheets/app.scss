@@ -8,7 +8,7 @@ $body-bg-color: white;
 
 $header-description-color: rgb(105, 105, 105);
 $header-link-color: rgb(80, 80, 80);
-$header-bg-color: rgb(230, 230, 230);
+$header-bg-color: white;
 $header-site-title-color: #111;
 
 $footer-bg-color: rgb(160, 160, 160);
@@ -50,9 +50,10 @@ section#main {
 }
 
 .site-header {
+  min-height: 150px;
   padding-top: 0.2em;
   background-color: $header-bg-color;
-  border-bottom: 1px solid #ADADA8;
+//  border-bottom: 1px solid #ADADA8;
 
   .site-title h1 {
     font-family: Helvetica, Tahoma, Arial, STXihei;
@@ -84,6 +85,8 @@ section#main {
   }
   
   nav {
+    padding-top: 30px;
+
     ul {
       padding: 0 1em;
 
