@@ -1,10 +1,12 @@
 <header class="site-header">
   <div class="pure-g">
       <div class="pure-u-1 pure-u-md-1-4">
-        <a href="/">
-          <div id="logo">
-          </div>
-        </a>
+        <div id="logo-container">
+          <a href="/" class="logo-link">
+            <div id="logo">
+            </div>
+          </a>
+        </div>
       </div>
       <div class="pure-u-1 pure-u-md-3-4">
         <div class="site-header-right">
@@ -13,19 +15,21 @@
             <!-- <p>{{ site.description }}</p> -->
           </div>
 
-          <nav>
+          <nav class="pure-menu pure-menu-open pure-menu-horizontal">
             <ul>
-              <li>
+              <li
+              {% if  page.title == "About" %}
+                class="pure-menu-selected"
+              {% endif %}
+              >
                 <a href="/about/">简介/about</a>
               </li>
               <li>
                 <a target="_blank" href="{{ site.mailling_list_signup_link }}">订阅/subscribe</a>
               </li>
-              <!-- <li>
-                <a href="/contact/">联络/contact</a>
-              </li> -->
             </ul>
           </nav>
+
         </div>
       </div>
   </div>

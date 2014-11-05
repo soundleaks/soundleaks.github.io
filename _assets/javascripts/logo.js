@@ -1,3 +1,6 @@
+var logoWidth = 260;
+var logoHeight = 140;
+
 var logo = function( sketch ) {
   var soundText = "SOUND".split('');
   var leaksText = "LEAKS".split('').join("   ");
@@ -10,7 +13,7 @@ var logo = function( sketch ) {
 
 
   sketch.setup = function() {
-    sketch.createCanvas(260, 140);
+    sketch.createCanvas(logoWidth, logoHeight);
   };
 
   sketch.setThelaChange = function(val) {
@@ -28,7 +31,7 @@ var logo = function( sketch ) {
     sketch.textSize(12);
     sketch.textStyle(sketch.BOLD);
 
-    // sketch.background(255, 230, 230);
+    sketch.background(255, 255, 255);
     theta += thelaChange;
 
     var width = sketch.width;
@@ -105,9 +108,16 @@ var logo = function( sketch ) {
   };
 };
 
-var myp5 = new p5(logo, 'logo');
-
 $(document).ready(function(){
+  var $logoContainer = $('#logo-container');
+
+  var containerWidth = $logoContainer.width();
+  if (containerWidth < logoWidth ) {
+    logoWidth = containerWidth;
+  }
+
+  var myp5 = new p5(logo, 'logo');
+
   $(document).mousemove(function(e){
     var $this = $(this);
     var x = e.pageX / $(this).width();

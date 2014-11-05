@@ -7,7 +7,7 @@
 $body-bg-color: white;
 
 $header-description-color: rgb(105, 105, 105);
-$header-link-color: rgb(80, 80, 80);
+$header-link-color: rgb(120, 120, 120);
 $header-bg-color: white;
 $header-site-title-color: #111;
 
@@ -18,7 +18,7 @@ $link-color: rgb(250, 250, 250);
 $link-bg-color: rgb(40, 40, 40);
 
 #logo {
-  width: 300px;
+//  min-width: 260px;
   margin: 0 auto;
 }
 
@@ -88,22 +88,14 @@ section#main {
     padding-top: 30px;
 
     ul {
-      padding: 0 1em;
-
       li {
-        display: inline-block;
-        margin-right: 4px;
-
         a {
-          font-size: 0.9em;
-          font-weight: 700;
           color: $header-link-color;
           text-decoration: none;
 
           &:hover {
-            @include transition (all 1s ease);
-            color: lighten($header-link-color, 30%);
-            text-decoration: underline;
+            @include transition (all 0.4s ease);
+            color: darken($header-link-color, 20%);
           }
         }
       }
