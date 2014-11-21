@@ -6,4 +6,4 @@ gem 'jekyll-assets'
 gem 'bourbon'
 gem 'neat'
 gem 'compass'
-
+gem 'uglifier'
