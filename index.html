@@ -19,9 +19,9 @@ layout: default
               <a href="{{ event.url }}">
                 <img class="pure-img post-img" src="/poster/{{event.poster}}">
               </a>
-              <!-- TODO: replace mock data with description -->
-              <div class="event-description">一起来参加</div>
-              <!-- END TODO -->
+
+              <div class="event-description">{{ event.description }}</div>
+
             </div>
             <a href="{{ event.url }}" class="more"><i>更多/more</i></a>
           </div>
