@@ -13,7 +13,24 @@ layout: default
       </div>
     </div>
     <div class="pure-u-1 pure-u-md-3-4">
-      <img class="pure-img" src="/photos/sean.jpg">
+      <div class="pure-g">
+        <div class="new-event event">
+          {% assign event = site.events.last %}
+          <div class="pure-u-1 pure-u-md-1-2">
+            <div class="event-poster">
+              <a href="{{ event.url }}">
+                <img class="pure-img" src="/poster/{{event.poster}}">
+              </a>
+            </div>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2">
+            <div class="event-content">
+                <h1>{{event.title}}</h1>
+              {{event.content}}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

@@ -51,6 +51,13 @@ section#main {
       border: solid 1px #aaa;
     }
   }
+
+  .event-poster {
+    a {
+      border: none;
+    }
+  }
+
 }
 
 .site-header {
@@ -109,6 +116,7 @@ section#main {
 }
 
 footer {
+  margin-top: 10px;
   border-top: 1px solid #555C58;
   background-color: $footer-bg-color;
   color: $footer-color;
@@ -152,6 +160,22 @@ footer {
     }
   }
 }
+
+.event {
+  margin: 1em;
+
+  .event-header {
+    .event-title {
+      color: #999;
+      font-size: 1.2em;
+    }
+  }
+
+  .event-content {
+    margin: 1em;
+  }
+}
+
 
 .site-header-right {
   margin-left: 50px;
