@@ -9,6 +9,18 @@ layout: default
         <p>这个聚会是一个非正式民间交流聚会并不需要参与者有相关的专业背景。</p>
       </div>
     </div>
+
+    <div class="pure-u-1">
+        <div class="review">
+          {% for post in site.posts limit:1 %}
+            <a href="{{ post.url }}">
+              <i class="fa fa-info"></i>
+              {{ post.title }}
+            </a>
+          {% endfor %}
+        </div>
+    </div>
+
     <div class="pure-u-1">
       <div class="pure-g">
         <div class="new-event event">

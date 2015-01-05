@@ -12,12 +12,14 @@ $header-site-title-color: #111;
 $footer-bg-color: rgb(160, 160, 160);
 $footer-color: rgb(240, 240, 240);
 
-$link-color: rgb(250, 250, 250);
+$link-color: rgb(40, 40, 40);
 $link-bg-color: rgb(40, 40, 40);
 
 html {
   height: 100%;
 }
+
+
 #logo {
 //  min-width: 260px;
   margin: 0 auto;
@@ -42,12 +44,11 @@ section.wrap {
 .wrap {
   a {
     color: $link-color;
-    background-color: $link-bg-color;
-    text-decoration: none;
+    text-decoration: underline;
     // border: solid 1px #aaa;
 
     &:hover {
-      background-color: lighten($link-bg-color, 30%);
+      color: lighten($link-color, 30%);
       text-decoration: none;
       // border: solid 1px #aaa;
     }
@@ -207,7 +208,7 @@ footer {
     nav {
       padding-top: 0;
     }
-  } 
+  }
 
   .post {
     margin: 1em 1em;
@@ -268,4 +269,4 @@ footer {
     .pure-hidden-xl{display:none}
 }
 
-@import "home"
+@import "home";
