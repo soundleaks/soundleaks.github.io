@@ -27,6 +27,18 @@
 
   {% javascript logo %}
 
+  {% if page.is_lazy %}
+    {% javascript echo.min %}
+    <script>
+    echo.init({
+      offset: 100,
+      throttle: 250,
+      unload: false,
+    });
+
+    </script>
+  {% endif %}
+
   </body>
 
 </html>
