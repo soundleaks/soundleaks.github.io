@@ -2,6 +2,7 @@
 layout: post
 title: "soundleaks #0 回顾"
 image: "/photos/vol0/2-hack.jpg"
+is_lazy: true
 ---
 
 soundleaks 的首期活动在12月21日顺利举行，到现在已经过去几周时间，这里简单回顾一下。
