@@ -93,7 +93,7 @@ Jason展示了在下午完成的了音乐家代表色，用将音乐家作品的
 
 {% img /photos/vol0/3-sunwei.jpg  灭灭 %}
 
-Perry和小松还在进行一个音乐家师生谱系可视化项目，还是一个初期的原型。
+Perry和小松在进行一个音乐家师生谱系可视化项目，还是一个初期的原型。
 
 {% img /photos/vol0/3-perry-sean-vis.jpg  音乐家谱系 %}
 
