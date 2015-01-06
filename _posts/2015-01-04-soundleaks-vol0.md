@@ -51,25 +51,25 @@ soundleaks 的首期活动在12月21日顺利举行，到现在已经过去几�
 他们用灵敏的电声器去捕捉工厂铁门内震动的混响，用录音机去获取废旧工厂内部的共鸣。
 在步行中，大家互相分享交流了相关的设备经验和录音的技巧。
 
-{% img /photos/vol0/2-field-recording-1.jpg  户外实地录音 %}
+{% img /photos/vol0/2-field-recording-1.jpg 户外实地录音 %}
 
-{% img /photos/vol0/2-field-recording-2.jpg  户外实地录音 %}
+{% img /photos/vol0/2-field-recording-2.jpg 户外实地录音 %}
 
-{% img /photos/vol0/2-field-recording-3.jpg  户外实地录音 %}
+{% img /photos/vol0/2-field-recording-3.jpg 户外实地录音 %}
 
-{% img /photos/vol0/2-field-recording-4.jpg  户外实地录音 %}
+{% img /photos/vol0/2-field-recording-4.jpg 户外实地录音 %}
 
-{% img /photos/vol0/2-field-recording-5.jpg  户外实地录音 %}
+{% img /photos/vol0/2-field-recording-5.jpg 户外实地录音 %}
 
-{% img /photos/vol0/2-field-recording-6.jpg  户外实地录音 %}
+{% img /photos/vol0/2-field-recording-6.jpg 户外实地录音 %}
 
 另外一部分同学在室内，利用各自的笔记本电脑、电子零件、玩具、电焊工具等等作为工具，进行了相关实验。
 
-{% img /photos/vol0/2-hack.jpg  hack时间! %}
+{% img /photos/vol0/2-hack.jpg hack时间! %}
 
-{% img /photos/vol0/2-jason.jpg  Jason %}
+{% img /photos/vol0/2-jason.jpg Jason %}
 
-{% img /photos/vol0/2-marvin.jpg  Marvin %}
+{% img /photos/vol0/2-marvin.jpg Marvin %}
 
 
 ### 成果展示/表演
@@ -78,7 +78,7 @@ soundleaks 的首期活动在12月21日顺利举行，到现在已经过去几�
 
 小松播放了一段139字符的音乐（是的，小于140），还简单谈了谈程序文本的表现力和约束带来的创造性。
 
-{% img /photos/vol0/3-sean.jpg  140个字符的音乐 %}
+{% img /photos/vol0/3-sean.jpg 140个字符的音乐 %}
 
 Jason展示了在下午完成的了音乐家代表色，用将音乐家作品的情绪映射到颜色，
 在其他同学的要求下，Jason尝试了不同风格的音乐人所对应的颜色：
@@ -88,29 +88,29 @@ Jason展示了在下午完成的了音乐家代表色，用将音乐家作品的
 * MONO：蓝色
 * White+：灰色
 
-{% img /photos/vol0/3-jason.jpg  音乐家色彩 %}
+{% img /photos/vol0/3-jason.jpg 音乐家色彩 %}
 
 孙玮进行了实地录音表演，漆黑中参与者依然可以感受到实地录音的魅力与空灵。
 
-{% img /photos/vol0/3-sunwei.jpg  灭灭 %}
+{% img /photos/vol0/3-sunwei.jpg 孙玮 %}
 
 Perry和小松在进行一个音乐家师生谱系可视化项目，还是一个初期的原型。
 
-{% img /photos/vol0/3-perry-sean-vis.jpg  音乐家谱系 %}
+{% img /photos/vol0/3-perry-sean-vis.jpg 音乐家谱系 %}
 
 下一个是马进的收音机实验音乐，他将收音机的声音接进小合成器上，表演诙谐而且奇异。
 
-{% img /photos/vol0/3-marvin.jpg  马进收音机 %}
+{% img /photos/vol0/3-marvin.jpg 马进收音机 %}
 
 灭灭首先展示了自己之前的音乐可视化作品，以其标志性的四面体为出发点写了个游戏风格的鼓机程序……现在程序还有些BUG，我们非常期待它的最终成品。
 
-{% img /photos/vol0/3-miemie-vis-1.jpg  灭灭 %}
+{% img /photos/vol0/3-miemie-vis-1.jpg 灭灭 %}
 
-{% img /photos/vol0/3-miemie.jpg  灭灭 %}
+{% img /photos/vol0/3-miemie.jpg 灭灭 %}
 
 最后是loddit的浏览器内[实时乐器合作演奏](http://band.meteor.com/)，据说是某次黑客马拉松的产物。
 
-{% img /photos/vol0/3-loddit.jpg  loddit %}
+{% img /photos/vol0/3-loddit.jpg loddit %}
 
 
 ## 结束
@@ -118,7 +118,7 @@ Perry和小松在进行一个音乐家师生谱系可视化项目，还是一个
 活动在当天晚上九点左右结束，大家在从各个维度体验/学习声音，也结识了新朋友:)
 
 
-{% img /photos/vol0/4-everyone.jpg  合照 %}
+{% img /photos/vol0/4-everyone.jpg 合照 %}
 
 
 最后要特别感谢为我们提供场地的极客公园，粘永帮我们布置场地，吉衣和馨艺为活动拍照，馨艺自制了很多好吃的拿到现场。

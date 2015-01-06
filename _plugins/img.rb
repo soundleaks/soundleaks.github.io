@@ -3,7 +3,7 @@ module Jekyll
 
     def initialize(tag_name, text, tokens)
       super
-      @url , *@val= text.split(/ /)
+      @url, *@val= text.split(/ /)
       @alt = @val[0]
       # if @val.length > 0
       #   @width , *@height = @val[0].split(/x/)
