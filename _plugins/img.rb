@@ -17,7 +17,7 @@ module Jekyll
     end
 
     def render(context)
-      "<img class=\"pure-img\" src=\"/photos/blank.gif\" data-echo=\"#{@url}\" alt=\"#{@alt}\" />"
+      "<img class=\"pure-img\" src=\"/images/blank.gif\" data-echo=\"#{@url}\" alt=\"#{@alt}\" />"
     end
   end
 end
