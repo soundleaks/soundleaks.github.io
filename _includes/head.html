@@ -32,5 +32,8 @@
     <!-- // <script src="//use.edgefonts.net/lato.js"></script> -->
 
     {% stylesheet app %}
+    {% if page.is_lazy %}
+    {% stylesheet lazyload %}
+    {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
