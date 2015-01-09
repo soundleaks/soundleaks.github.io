@@ -78,8 +78,7 @@ soundleaks 的首期活动在12月21日顺利举行，到现在已经过去几�
 
 下面是当时 Si 的一段录音:
 
-<audio src="http://7u2exj.com1.z0.glb.clouddn.com/yesi.mp3" controls>
-</audio>
+{% audio http://7u2exj.com1.z0.glb.clouddn.com/yesi.mp3 %}
 
 
 另外一部分同学在室内，利用各自的笔记本电脑、电子零件、玩具、电焊工具等等作为工具，进行了相关实验。
