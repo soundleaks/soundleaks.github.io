@@ -35,14 +35,30 @@ soundleaks 的首期活动在12月21日顺利举行，到现在已经过去几�
 
 {% img /photos/vol0/1-sunwei.jpg 孙玮 %}
 
+孙玮 的演讲录音
+
+<audio src="http://7u2exj.com1.z0.glb.clouddn.com/sunwei.mp3" controls>
+</audio>
+
 软件工程师潘妙财介绍了[音乐信息检索](http://en.wikipedia.org/wiki/Music_information_retrieval)相关的背景知识以及他自己的工程实践，重复内容检测和音乐推荐是他谈及的两大应用。[这里](http://extreme.soundleaks.org/) 有他计算部分音乐特征的极端歌单，最「Non-Western」的作品是 Iannis Xenakis 的作品「Concret Ph」。
 
+
+
 {% img /photos/vol0/1-miaocai.jpg 潘妙财 %}
+
+潘妙财 的演讲录音
+
+<audio src="http://7u2exj.com1.z0.glb.clouddn.com/panmiaocai.mp3" controls>
+</audio>
 
 最后，马进为大家从声学角度介绍声音，总共分三个部分的内容。第一部分是物理中的声音（包括声音的产生以及人耳获得、超声波和次声波、物体的固有频率等）。第二部分是音乐中的声音，主要探讨了西方的十二音体系、声音的可视化以及乐器的发声原理。最后一部分马进分享了他的一些聆听经验和感受：呼吁大家打开耳朵，聆听身边的声音。（他的幻灯片背景是消声室）
 
 {% img /photos/vol0/1-marvin.jpg 马进 %}
 
+马进 的演讲录音
+
+<audio src="http://7u2exj.com1.z0.glb.clouddn.com/majin.mp3"  controls>
+</audio>
 
 ### 自由创作
 
@@ -62,6 +78,12 @@ soundleaks 的首期活动在12月21日顺利举行，到现在已经过去几�
 {% img /photos/vol0/2-field-recording-5.jpg 户外实地录音 %}
 
 {% img /photos/vol0/2-field-recording-6.jpg 户外实地录音 %}
+
+下面是当时 Si 的一段录音:
+
+<audio src="http://7u2exj.com1.z0.glb.clouddn.com/yesi.mp3" controls>
+</audio>
+
 
 另外一部分同学在室内，利用各自的笔记本电脑、电子零件、玩具、电焊工具等等作为工具，进行了相关实验。
 
