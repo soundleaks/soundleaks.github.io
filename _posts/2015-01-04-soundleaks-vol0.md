@@ -37,8 +37,7 @@ soundleaks 的首期活动在12月21日顺利举行，到现在已经过去几�
 
 孙玮 的演讲录音
 
-<audio src="http://7u2exj.com1.z0.glb.clouddn.com/sunwei.mp3" controls>
-</audio>
+{% audio http://7u2exj.com1.z0.glb.clouddn.com/sunwei.mp3 %}
 
 软件工程师潘妙财介绍了[音乐信息检索](http://en.wikipedia.org/wiki/Music_information_retrieval)相关的背景知识以及他自己的工程实践，重复内容检测和音乐推荐是他谈及的两大应用。[这里](http://extreme.soundleaks.org/) 有他计算部分音乐特征的极端歌单，最「Non-Western」的作品是 Iannis Xenakis 的作品「Concret Ph」。
 
@@ -48,8 +47,7 @@ soundleaks 的首期活动在12月21日顺利举行，到现在已经过去几�
 
 潘妙财 的演讲录音
 
-<audio src="http://7u2exj.com1.z0.glb.clouddn.com/panmiaocai.mp3" controls>
-</audio>
+{% audio http://7u2exj.com1.z0.glb.clouddn.com/panmiaocai.mp3 %}
 
 最后，马进为大家从声学角度介绍声音，总共分三个部分的内容。第一部分是物理中的声音（包括声音的产生以及人耳获得、超声波和次声波、物体的固有频率等）。第二部分是音乐中的声音，主要探讨了西方的十二音体系、声音的可视化以及乐器的发声原理。最后一部分马进分享了他的一些聆听经验和感受：呼吁大家打开耳朵，聆听身边的声音。（他的幻灯片背景是消声室）
 
@@ -57,8 +55,7 @@ soundleaks 的首期活动在12月21日顺利举行，到现在已经过去几�
 
 马进 的演讲录音
 
-<audio src="http://7u2exj.com1.z0.glb.clouddn.com/majin.mp3"  controls>
-</audio>
+{% audio http://7u2exj.com1.z0.glb.clouddn.com/majin.mp3 %}
 
 ### 自由创作
 
