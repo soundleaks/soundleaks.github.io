@@ -29,10 +29,10 @@ layout: default
             <div class="event-content">
               <h1>{{event.title}}</h1>
               <a href="{{ event.url }}">
-                <img class="pure-img post-img" src="/poster/{{event.poster}}">
+                <img class="pure-img post-img" src="{{event.image}}">
               </a>
 
-              <div class="event-description">{{ event.description }}</div>
+              <div class="event-description">{{ event.content }}</div>
 
             </div>
             <a href="{{ event.url }}" class="more"><i>更多/more</i></a>

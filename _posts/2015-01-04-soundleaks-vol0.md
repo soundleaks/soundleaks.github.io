@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "soundleaks #0 回顾"
-image: "/photos/vol0/2-hack.jpg"
+image: /photos/vol0/2-hack.jpg
 is_lazy: true
 ---
 
