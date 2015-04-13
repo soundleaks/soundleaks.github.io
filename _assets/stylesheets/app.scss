@@ -159,6 +159,12 @@ footer {
 .post {
   margin: 1em 4em;
 
+  .post-content {
+    blockquote {
+      font-style: italic;
+    }
+  }
+
   .post-header {
     .post-title {
       color: #999;
