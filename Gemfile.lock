@@ -1,5 +1,4 @@
 GEM
-  remote: http://ruby.taobao.org/
   specs:
     blankslate (2.1.2.4)
     bourbon (4.0.2)
