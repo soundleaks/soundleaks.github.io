@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-jekyll build && rsync -avz --delete _site/ www.xiuxiu.de:/home/wwwroot/www.soundleaks.org/
