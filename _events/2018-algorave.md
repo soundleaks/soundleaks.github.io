@@ -6,15 +6,13 @@ image: /poster/algorave2018.jpg
 description: ""
 ---
 
-# Algorave Beijing
+2018/10/26（Friday）
 
-2018年10月26日（周五）
+时间/Time：20:30 - 23:30
 
-时间：20:30 - 23:30
+场地/Venue：fRUITYSPACE
 
-场地: fRUITYSPACE
-
-门票: 50RMB
+门票/Ticket：50RMB
 
 Live:
 
@@ -25,7 +23,7 @@ Live:
 
 DJ:
 
-DJ dj (CN)
+* DJ dj (CN)
 
 ## Pefromers
 
