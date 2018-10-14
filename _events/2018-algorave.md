@@ -27,8 +27,6 @@ DJ:
 
 ## Pefromers
 
-Live coding set:
-
 #### HydrKlank
 
 HydrKlank由宇佐美理（Tadashi Usami）和前田康行(Maeda Yasuyuku）组建于2017年。他们在现场编程的过程中笔记本电脑通过以太网相连并同步，其中宇佐美理使用SuperCollider和Tidalcycles，前田康行使用Overtone。
