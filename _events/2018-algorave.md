@@ -25,6 +25,10 @@ DJ:
 
 * DJ dj (CN)
 
+[工作坊][workshop]://www.soundleaks.org/event/2018-vol3/)在演出后一天
+[工作坊](http://www.soundleaks.org/event/2018-vol3/)在演出后一天
+
+
 ## Pefromers
 
 #### HydrKlank
