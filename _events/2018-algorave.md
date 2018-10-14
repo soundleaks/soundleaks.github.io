@@ -10,7 +10,7 @@ description: ""
 
 时间/Time：20:30 - 23:30
 
-场地/Venue：fRUITYSPACE
+场地/Venue：[fRUITYSPACE](https://www.facebook.com/pages/Fruityspace/1734950436787743)
 
 门票/Ticket：50RMB
 
