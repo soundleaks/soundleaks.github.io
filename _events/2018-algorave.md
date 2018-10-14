@@ -52,7 +52,7 @@ Born in Japan to Taiwanese parents, studied Linguistics in the U.S. Currently li
 
 <https://soundcloud.com/shihpin-lin>
 
-#### Ding Xin
+#### 丁昕 Ding Xin
 
 丁昕
 
@@ -66,7 +66,7 @@ Ding Xin (A.K.A. Sandy Ding) is an experimental filmmaker/musician from Beijing 
 
 From 2008, he started to DJ and organized Psytrance party in China. His music focus on Hitech, Psycore in Psytrance. He worked for the label Akashik Record, and later started his own label Psy-Emperors.  Since 2014, He formed a psychedelic noise band called Liquid Palace with Meng Qi and other members. In 2018, He started another dark ambiance project called Secret Builder with Chen Zhe. His solo performance is mainly using experiments in analog circuits and digital programming in combination with field recordings to exploring psychological dimensions.
 
-#### Li Song
+#### 李松 Li Song
 
 李松，西安人。曾在系统误差组建音视频二人组kunjinkao，2015年在北京与朱文博组建二人组不演了。他还是声音艺术/科技交流活动 Soundleaks 的发起者之一。
 
