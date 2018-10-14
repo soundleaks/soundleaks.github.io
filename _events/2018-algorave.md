@@ -37,6 +37,7 @@ HydrKlank由宇佐美理（Tadashi Usami）和前田康行(Maeda Yasuyuku）组�
 HydrKlank was formed by Tadashi Usami and Maeda Yasuyuki in 2017. Their laptops are connected via Ethernet and synced during their live coding performance, for which Usami uses SuperCollider and Tidalcycles, and Maeda uses Overtones.
 
 Tadashi Usami: <http://oschub.asia>
+
 Maeda Yasuyuku: <http://www.illi-ichi.com/>
 
 #### Shihpin Lin
