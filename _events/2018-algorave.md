@@ -25,8 +25,8 @@ DJ:
 
 * DJ dj (CN)
 
-**提醒:** [工作坊](/www.soundleaks.org/event/2018-vol3/)会在演出后的第二天下午进行。
-
+**提醒:** [工作坊](/www.soundleaks.org/event/2018-vol3/)会在27日的第二天下午进行。
+**Notice:** [Workshops](/www.soundleaks.org/event/2018-vol3/) on 27th afternoon.
 
 ## Pefromers
 
