@@ -25,8 +25,9 @@ DJ:
 
 * DJ dj (CN)
 
-**提醒:** [工作坊](/www.soundleaks.org/event/2018-vol3/)会在27日的第二天下午进行。
-**Notice:** [Workshops](/www.soundleaks.org/event/2018-vol3/) on 27th afternoon.
+**提醒:** [工作坊](https://www.soundleaks.org/event/2018-vol3/)会在27日的第二天下午进行。
+
+**Notice:** [Workshops](https://www.soundleaks.org/event/2018-vol3/) on 27th afternoon.
 
 ## Pefromers
 
@@ -78,3 +79,15 @@ From 2008, he started to DJ and organized Psytrance party in China. His music fo
 Born in Xi’an. Li Song is a member of Kunjinkao, an visual/audio duo from System Error label in Xi'an. In 2015, Li Song and Zhu Wenbo started the duo project No Performance in Beijing. Beside that, he is also the organizer of the Soundleaks event.
 
 <http://notimportant.org/>
+
+
+#### DJ dj
+
+DJ dj
+我病了/ 世界上最伤心的人。
+
+动感音乐
+酷狗音乐高手，dj加快版，慢摇，皇冠一刻钟。
+朴风，洗浴，纯绿色，全是爱，凤舞九天。
+一生等你，喝醉以后才明白，当我孤独的时候还可以抱着你，就当我们没爱过。鱿鱼歌。
+www.djdj123123.com
